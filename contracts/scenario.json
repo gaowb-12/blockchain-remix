@@ -1,0 +1,74 @@
+{
+  "accounts": {
+    "account{0}": "0xaD2c341aF858253E27A95e642FD671cFF74c1Ee2"
+  },
+  "linkReferences": {},
+  "transactions": [
+    {
+      "timestamp": 1727099964558,
+      "record": {
+        "value": "0",
+        "inputs": "()",
+        "parameters": [],
+        "name": "",
+        "type": "constructor",
+        "abi": "0xacb71e008c8e607bf531b49ff6b75d72b2508fa836bd2f0bbab35e60011f2b45",
+        "contractName": "FundMe",
+        "bytecode": "608060405260325f553480156012575f80fd5b506102e5806100205f395ff3fe608060405260043610610049575f3560e01c8063098de8201461004d5780630d8e6e2c1461007757806398d5fdca146100a1578063b60d4288146100b7578063f36089ec146100c1575b5f80fd5b348015610058575f80fd5b506100616100d7565b60405161006e91906101c5565b60405180910390f35b348015610082575f80fd5b5061008b6100dc565b60405161009891906101c5565b60405180910390f35b3480156100ac575f80fd5b506100b5610163565b005b6100bf610165565b005b3480156100cc575f80fd5b506100d56101ab565b005b5f5481565b5f731b44f3514812d835eb1bdb0acb33d3fa3351ee4373ffffffffffffffffffffffffffffffffffffffff166354fd4d506040518163ffffffff1660e01b8152600401602060405180830381865afa15801561013a573d5f803e3d5ffd5b505050506040513d601f19601f8201168201806040525081019061015e919061020c565b905090565b565b5f543410156101a9576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004016101a090610291565b60405180910390fd5b565b565b5f819050919050565b6101bf816101ad565b82525050565b5f6020820190506101d85f8301846101b6565b92915050565b5f80fd5b6101eb816101ad565b81146101f5575f80fd5b50565b5f81519050610206816101e2565b92915050565b5f60208284031215610221576102206101de565b5b5f61022e848285016101f8565b91505092915050565b5f82825260208201905092915050565b7f4469646e27742073656e6420656e6f75676821000000000000000000000000005f82015250565b5f61027b601383610237565b915061028682610247565b602082019050919050565b5f6020820190508181035f8301526102a88161026f565b905091905056fea2646970667358221220b59e884e01a7d92d694da2d16eea60e4a9ddeb56ec675dd74acde2a1bedbb97664736f6c634300081a0033",
+        "linkReferences": {},
+        "from": "account{0}"
+      }
+    }
+  ],
+  "abis": {
+    "0xacb71e008c8e607bf531b49ff6b75d72b2508fa836bd2f0bbab35e60011f2b45": [
+      {
+        "inputs": [],
+        "name": "fund",
+        "outputs": [],
+        "stateMutability": "payable",
+        "type": "function"
+      },
+      {
+        "inputs": [],
+        "name": "getConversionRate",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function"
+      },
+      {
+        "inputs": [],
+        "name": "getPrice",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function"
+      },
+      {
+        "inputs": [],
+        "name": "getVersion",
+        "outputs": [
+          {
+            "internalType": "uint256",
+            "name": "",
+            "type": "uint256"
+          }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+      },
+      {
+        "inputs": [],
+        "name": "minimumUsd",
+        "outputs": [
+          {
+            "internalType": "uint256",
+            "name": "",
+            "type": "uint256"
+          }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+      }
+    ]
+  }
+}
